@@ -1,0 +1,21 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+
+// Import global
+// -----------------------------------------------------------------------------
+@import "global/fonts";
+@import "global/mixins";
+@import "global/variables";
+
+// Import partials
+// --------------------------------------------------
+
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/footer";
+@import "partials/general";
+
+// Import pages
+// --------------------------------------------------
+
+@import "pages/homepage";

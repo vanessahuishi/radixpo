@@ -1,0 +1,36 @@
+{
+  "name": "pixelonion",
+  "description": "A theme based on Radix.",
+  "browserSyncProxy" : "http://drupal7542.dev",
+  "bowerDir": "./bower_components",
+  "css": {
+    "file" : "pixelonion.style.scss",
+    "src": [
+      "sass/**/*.scss"
+    ],
+    "dest": "assets/css",
+    "includePaths": [
+      "./bower_components/bootstrap-sass/assets/stylesheets",
+      "./bower_components/font-awesome/scss"
+    ]
+  },
+  "js": {
+    "file" : "pixelonion.script.js",
+    "src": [
+      "js/**/*.js"
+    ],
+    "dest": "assets/js"
+  },
+  "images": {
+    "src": [
+      "assets/images/**/*"
+    ],
+    "dest": "assets/images/"
+  },
+  "fonts": {
+    "src": [
+      "./bower_components/font-awesome/fonts/**.*"
+    ],
+    "dest": "./assets/fonts/"
+  }
+}
